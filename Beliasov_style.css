@@ -1,0 +1,114 @@
+header 
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 10%;
+  background-color: #000000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+header .slogan 
+{
+  font: 150% Arial;
+  color: rgb(225, 246, 243);
+  background-color: transparent;
+  text-align: right;
+}
+
+nav 
+{
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 22%;
+  height: 80%;
+  background-color: #42AAFF;
+  padding: padding-left: 0px;
+}
+
+nav ul
+{
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+}
+
+nav a:link
+{
+  text-decoration: none;
+  font: 90% Georgia;
+  color: rgb(145,3,250);
+  background-color: transparent;
+}
+
+nav a:visited
+{
+text-decoration: none;
+font: 90% Georgia;
+color: rgb(29,9,244);
+background-color: transparent;
+}
+  
+
+nav a:hover
+{
+color: green;
+}
+
+nav li
+{
+font: 90% Georgia;
+border-bottom: 1px dotted black;
+}
+
+nav h2
+{
+  font: 110% Georgia;
+  color: rgb(201,12,249);
+  border-bottom: 1px dotted rgb(247,150,4);
+}
+
+main 
+{
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  width: 78%;
+  height: 80%;
+  padding: padding-left:0px;
+  overflow: scroll;
+}
+ 
+main h1
+{
+  font: 150% Georgia; 
+  font-weight: 800;
+  color: rgb(88,15,247);
+}
+
+main h2
+{
+  font: 130% Georgia;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(66,50,231);
+}
+
+main p
+{
+font: 100% Georgia;
+color: rgb(25,25,25);
+text-align: justify;
+}
+
+Footer 
+{
+position: absolute;
+top: 90%;
+left: 0%;
+width: 100%;
+height: 10%;
+}
